@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,45 @@
 </head>
 
 <body>
-    <div>
-        <input type="text">
-        <button type="submit">Click</button>
-        <h1>Enter Your City Name to Check the Weather</h1>
+    <!-- <div id="main">
+        <div id="top">
+            <div id="inputDiv">
+                <input type="text">
+                <button type="submit" onclick=getWeatherUpdate()>Click</button>
+            </div>
+           
+        </div>
+
+        <div>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+
+    </div> -->
+    <div class="main">
+
+        <div id="inputBox">
+            <input type="text">
+            <button onclick="getWeather()">Click</button>
+
+
+        </div>
+        <div id="heading">
+            <!-- <h2>Enter Your City Name to Check the Weather</h2> -->
+        </div>
+        <div class="">
+            <div class="">
+                <div class="description">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
     </div>
-
-    <div>
-        <p></p>
-        <p></p>
-        <p></p>
-    </div>
-
-
+    <!--  main div end -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
