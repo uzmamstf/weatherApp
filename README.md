@@ -1,2 +1,3 @@
 # weatherApp
-##  https://uzmamstf.github.io/weatherApp/.
+##  https://uzmamstf.github.io/weatherApp
+### WIP
