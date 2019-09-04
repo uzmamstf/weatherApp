@@ -31,8 +31,8 @@ function getWeather() {
             // document.querySelector('heading h2').style = "display:none";
             let icone = weatherData.data.weather[0].icon;
             temperature = Math.round(temperature = weatherData["data"]["main"]["temp"]);
-            document.querySelector('p').innerHTML = `City: ${city}`;
-            document.querySelector("p").innerHTML = weatherData.data.weather[0].description;
+            document.querySelector('h2').innerHTML = `City: ${city}`;
+            document.querySelector("h5").innerHTML = weatherData.data.weather[0].description;
             document.querySelector('p').innerHTML = ` <br>Now : ${Math.floor(response.data.main.temp - 273.15)} <span>°C</span>`;
             //document.querySelector('').innerHTML = `Wind Speed: ${response.data.wind.speed} min/sec`;
 
